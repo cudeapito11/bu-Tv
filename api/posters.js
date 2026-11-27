@@ -1,5 +1,5 @@
 module.exports = async function(req,res){
- const token=process.env.TMDB_API_TOKEN;
+ const token=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNWYwYTcyMDgzYThmODkxYWY3YTQ5YzA1ZGYwOGY0ZCIsIm5iZiI6MTc3ODExNDc2Mi45MzgsInN1YiI6IjY5ZmJlMGNhYzVkNDQ3MTQ3YmM0N2YxOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dgYe5njKHGZIWD4vrl_PfMpajvKSnauymPnfCiOKPQA;
  if(!token)return res.status(503).json({error:'Configure TMDB_API_TOKEN'});
  try{
  const lists=await Promise.all(['movie','tv'].map(async type=>{
