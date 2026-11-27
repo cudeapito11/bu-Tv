@@ -1,0 +1,3 @@
+Abra a pasta no terminal e execute npx vercel dev (Node.js necessário). Configure TMDB_API_TOKEN em .env.local ou nas variáveis da Vercel. O token provisório está em .env.local; não compartilhe este ZIP nem publique esse arquivo. Substitua o token antes da publicação. Configure a variável também na Vercel. Abra o endereço localhost exibido pelo terminal, não o HTML diretamente. A API retorna títulos populares para demonstração; confirme catálogo e autorização comercial antes de publicar.
+
+V4: extraia todos os arquivos e abra index.html. O vídeo vsl.mp4 e a capa vsl-capa.jpg devem ficar ao lado do HTML.
